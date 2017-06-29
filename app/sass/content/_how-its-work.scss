@@ -1,0 +1,36 @@
+.how-its-work {
+  background-color: #edeff1;
+  text-align: center;
+  padding: 50px 0;
+  h2 {
+    margin-bottom: 30px;
+  }
+  &__block {
+    background-size: 30%;
+    text-align: left;
+    height: 200px;
+    padding-top: 15px;
+    h3 {
+      padding-left: 130px;
+      font-family: 'Open Sans';
+      font-size: 18px;
+      font-weight: 800;
+    }
+    p {
+      padding-left: 130px;
+    }
+    &__1 {
+      background: url(../img/how-work1.png) no-repeat center left;
+    }
+    &__2 {
+      background: url(../img/how-work2.png) no-repeat center left;
+    }
+    &__3 {
+      background: url(../img/how-work3.png) no-repeat center left;
+    }
+    &__4 {
+      background: url(../img/how-work4.png) no-repeat center left;
+    }
+
+  }
+}
