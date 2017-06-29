@@ -1,3 +1,52 @@
-.header__nav__social {
-  float: right;
+.header {
+  font-family: 'Open Sans';
+  font-weight:400;
+  background: url(../img/header-bg.jpg) no-repeat center top;
+  background-size: cover;
+  &__nav {
+    .navbar-default {
+      background: none;
+      border: none;
+      margin-top: 20px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #fff;
+    }
+    .navbar-default .navbar-brand {
+      color: #fff;
+      font-family: $BebasBold;
+      font-size: 37px;
+    }
+    &__btn {
+      margin-left: 10%;
+    }
+    &__social {
+      float: right;
+    }
+  }
+  &__content {
+    margin: 120px 0;
+    h1{
+      margin: 0;
+      color: #fff;
+      font-family:$BebasBold;
+      font-size: 82px;
+    }
+    p {
+      margin: 20px 0;
+    }
+    a {
+      display: inline-block;
+      padding: 10px 100px;
+      border: 1px solid #fff;
+      text-transform: uppercase;
+      &:hover {
+        color: #000;
+        background-color: #ffffff;
+      }
+      &:first-of-type {
+        margin-right: 30px;
+      }
+    }
+  }
 }

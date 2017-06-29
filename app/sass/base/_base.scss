@@ -14,9 +14,16 @@ body{
 
 a {
     text-decoration: none;
+    font-size: 17px;
+    color: #fff;
     &:hover, &:focus, &:active{
         text-decoration: none;
     }
+}
+p {
+    font-family:'Open Sans';
+    font-size: 18px;
+    color: #fff;
 }
 
 input{
