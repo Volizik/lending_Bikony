@@ -1,0 +1,44 @@
+.footer {
+  &__head {
+    text-align: center;
+    border-bottom: 3px solid #edeff1;
+    h1 {
+      font-size: 72px;
+      font-family: 'Montserrat';
+      font-weight: 500;
+      position: absolute;
+      top: 15px;
+      left: 270px;
+    }
+    h2 {
+      font-size: 50px;
+      font-family: 'Montserrat';
+      font-weight: 300;
+      line-height: 105px;
+      color: #94d5cf;
+      margin: 0;
+    }
+  }
+  p {
+    font-family:'Montserrat';
+    font-size: 18px;
+    font-weight: 300;
+  }
+  span>p{
+    font-weight: 600;
+    margin: 0;
+  }
+  &__contact {
+    padding-left: 50px;
+    margin-top: 50px;
+    img {
+      float: left;
+    }
+    p {
+      position: relative;
+      clear: both;
+      left: 30px;
+      top: -25px;
+    }
+  }
+}
