@@ -6,6 +6,9 @@
     margin-bottom: 30px;
   }
   &__block {
+    @include breakpoint(max-width 400px) {
+      margin-bottom: 50px;
+    }
     background-size: 30%;
     text-align: left;
     height: 200px;

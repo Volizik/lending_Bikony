@@ -2,13 +2,28 @@
   background-color: #85c875;
   padding-top: 50px;
   &__text {
+    @include breakpoint(max-width 1210px) {
+      width: 100%;
+      padding-bottom: 20px;
+    }
     width: 50%;
     float: left;
     p {
+      @include breakpoint(max-width 1210px) {
+        padding-left: 0;
+      }
       padding: 10px 20px 10px 60px;
       font-weight: 600;
     }
     a {
+      @include breakpoint(max-width 600px) {
+        float: none;
+        margin: 0;
+        margin-left: 10%;
+      }
+      @include breakpoint(max-width 400px) {
+        margin-left: 0;
+      }
       display: inline-block;
       margin-top: 20px;
       float: right;
@@ -16,6 +31,9 @@
     }
   }
   &__img {
+    @include breakpoint(max-width 1210px) {
+      display: none;
+    }
     width: 50%;
     float: left;
     img {

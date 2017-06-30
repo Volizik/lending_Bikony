@@ -10,6 +10,10 @@
     margin: 40px 60px;
   }
   &__block {
+    @include breakpoint(max-width 767px) {
+      width: 90%;
+      margin: 0px auto;
+    }
     height: 630px;
     padding-bottom: 20px;
     h3 {
@@ -19,7 +23,7 @@
       color: #2a3a4e;
       height: 50px;
     }
-    span>h3 {
+    span > h3 {
       font-family: 'Montserrat';
       font-weight: 900;
       font-size: 29px;
@@ -122,7 +126,10 @@
       }
     }
     &:hover {
-      box-shadow: -10px 20px 60px rgba(0,0,0,.3);
+      box-shadow: -10px 20px 60px rgba(0, 0, 0, .3);
+      @include breakpoint(max-width 676px) {
+        box-shadow: none;
+      }
     }
   }
 }

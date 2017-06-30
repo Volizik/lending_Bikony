@@ -1,5 +1,8 @@
 .footer {
   &__head {
+    @include breakpoint(max-width 1200px) {
+      display: none;
+    }
     text-align: center;
     border-bottom: 3px solid #edeff1;
     h1 {
@@ -29,6 +32,12 @@
     margin: 0;
   }
   &__contact {
+    @include breakpoint(max-width 991px) {
+      margin: 0 auto;
+      margin-top: 30px;
+      width: 300px;
+      padding: 0;
+    }
     padding-left: 50px;
     margin-top: 50px;
     img {

@@ -1,8 +1,11 @@
 .found-us {
   background-color: #fab2d2;
   .container {
+    @include breakpoint(max-width 715px) {
+      background: none;
+    }
     padding: 50px 0;
-    background: url(../img/question.png) no-repeat 50px center ;
+    background: url(../img/question.png) no-repeat 50px center;
   }
   p {
     padding-bottom: 40px;
@@ -12,6 +15,10 @@
     margin-left: 50px;
   }
   input {
+    @include breakpoint(max-width 715px) {
+      display: block;
+      margin-left: 10px;
+    }
     border: none;
     border-bottom: 1px solid #000000;
     padding: 10px;
@@ -24,6 +31,10 @@
     }
   }
   a {
+    @include breakpoint(max-width 715px) {
+      margin-top: 15px;
+      margin-left: 10px;
+    }
     display: inline-block;
     background-color: #fff;
     color:#000000;

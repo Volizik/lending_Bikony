@@ -23,16 +23,26 @@
     margin: 80px 0 50px 0;
   }
   &__wrap {
+    @include breakpoint(max-width 700px) {
+      padding-left: 0;
+    }
     padding-left: 70px;
     text-align: left;
     &__block {
       position: relative;
       img {
+        @include breakpoint(max-width 460px) {
+          display: none;
+        }
         height: 50px;
         float: left;
         margin: 0 10px 10px 0;
       }
       p {
+        @include breakpoint(max-width 460px) {
+          padding-left: 0;
+          position: static;
+        }
         position: relative;
         top: -30px;
         font-size: 17px;
@@ -40,6 +50,10 @@
         padding-left: 70px;
       }
       .head {
+        @include breakpoint(max-width 460px) {
+          padding-left: 0;
+          position: static;
+        }
         position: absolute;
         top: 0;
         font-family: 'Open Sans';
@@ -49,6 +63,17 @@
 
     }
     .btn-order {
+      @include breakpoint(max-width 700px) {
+        text-align: center;
+        margin-left: 10%;
+        float: left;
+      }
+      @include breakpoint(max-width 460px) {
+        display: block;
+        margin: 0;
+        float: none;
+        margin-top: 20px;
+      }
       float: right;
       margin-right: 50px;
       &:hover {
