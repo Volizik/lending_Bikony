@@ -1,0 +1,128 @@
+.how-started {
+  text-align: center;
+  background-color: #edeff1;
+  padding-bottom: 50px;
+  h2 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  p {
+    margin: 40px 60px;
+  }
+  &__block {
+    height: 630px;
+    padding-bottom: 20px;
+    h3 {
+      font-family: 'Montserrat';
+      font-weight: 800;
+      font-size: 22px;
+      color: #2a3a4e;
+      height: 50px;
+    }
+    span>h3 {
+      font-family: 'Montserrat';
+      font-weight: 900;
+      font-size: 29px;
+      color: #2a3a4e;
+    }
+    p {
+      font-size: 17px;
+    }
+    a {
+      font-weight: 800;
+      color: #2a3a4e;
+      font-size: 18px;
+    }
+    img.product-img {
+      height: 150px;
+      margin: 20px 0;
+    }
+    &__info {
+      width: 220px;
+      margin: 35px;
+      margin-bottom: 0;
+      position: relative;
+      &__lifetime {
+        height: 28px;
+        border: 1px solid #fff;
+        background-color: #ffffff;
+        margin: 7px 0;
+        img {
+          float: left;
+          margin: 2px 5px;
+        }
+        p {
+          float: left;
+          margin: 0;
+        }
+        p.grey {
+          position: relative;
+          background-color: #edeff1;
+          width: 45%;
+          float: right;
+          top: 1px;
+        }
+      }
+      &__range {
+        height: 28px;
+        border: 1px solid #fff;
+        background-color: #ffffff;
+        margin: 7px 0;
+        img {
+          float: left;
+          margin: 2px 5px;
+        }
+        p {
+          float: left;
+          margin: 0;
+        }
+        p.grey {
+          position: relative;
+          background-color: #edeff1;
+          width: 45%;
+          float: right;
+          top: 1px;
+        }
+      }
+      &__features {
+        height: 28px;
+        border: 1px solid #fff;
+        background-color: #ffffff;
+        margin: 7px 0;
+        img {
+          float: left;
+          margin: 2px 5px;
+        }
+        p {
+          float: left;
+          margin: 0;
+        }
+        p.features-grey {
+          position: relative;
+          background-color: #edeff1;
+          width: 100%;
+          padding: 10px 0 10px 30px;
+          border: 1px solid #fff;
+          top: 1px;
+          text-align: left;
+        }
+      }
+    }
+    &__btn {
+      display: inline-block;
+      width: 218px;
+      margin-top: 10px;
+      margin-left: 25px;
+      padding: 10px 40px;
+      border: 2px solid #2a3a4e;
+      border-radius: 5px;
+      &:hover {
+        background-color: #2a3a4e;
+        color: #edeff1;
+      }
+    }
+    &:hover {
+      box-shadow: -10px 20px 60px rgba(0,0,0,.3);
+    }
+  }
+}
