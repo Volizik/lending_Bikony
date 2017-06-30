@@ -39,7 +39,7 @@
     }
     &__info {
       width: 220px;
-      margin: 35px;
+      margin: 0 auto;
       margin-bottom: 0;
       position: relative;
       &__lifetime {
@@ -111,8 +111,8 @@
     &__btn {
       display: inline-block;
       width: 218px;
+      margin: 0 auto;
       margin-top: 10px;
-      margin-left: 25px;
       padding: 10px 40px;
       border: 2px solid #2a3a4e;
       border-radius: 5px;

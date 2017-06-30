@@ -18,15 +18,32 @@
       font-size: 37px;
     }
     &__btn {
+      @include breakpoint(max-width 1000px) {
+        margin: 0;
+      }
       margin-left: 10%;
+      a:hover {
+          color: #000 !important;
+          background-color: #fff !important;
+          border-radius: 5px !important;
+      }
     }
     &__social {
+      @include breakpoint(max-width 1000px) {
+        display: none;
+      }
       float: right;
     }
   }
   &__content {
+    @include breakpoint(max-width 1200px) {
+      margin-top: 40px;
+    }
     margin: 120px 0;
     h1{
+      @include breakpoint(max-width 600px) {
+        font-size: 40px;
+      }
       margin: 0;
       color: #fff;
       font-family:$BebasBold;
