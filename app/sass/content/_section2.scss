@@ -29,4 +29,27 @@
       float: right;
     }
   }
+  &__video {
+    &__wrap {
+      @include breakpoint(max-width 767px) {
+        margin-top: 20px;
+        float: left;
+        clear: both;
+        width: 100%;
+      }
+      position:relative;
+      padding-bottom:56.25%;
+      padding-top:30px;
+      height:0;
+      overflow:hidden;
+      border:1px solid #ccc;
+      iframe, object, embed {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+      }
+    }
+  }
 }
