@@ -3,25 +3,25 @@
   background-color: #edeff1;
   padding-bottom: 50px;
   h2 {
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
   }
   p {
-    margin: 40px 60px;
+    margin: 20px 60px;
   }
   &__block {
     @include breakpoint(max-width 767px) {
       width: 90%;
       margin: 0px auto;
     }
-    height: 630px;
+    height: 540px;
     padding-bottom: 20px;
     h3 {
       font-family: 'Montserrat';
       font-weight: 800;
       font-size: 22px;
       color: #2a3a4e;
-      height: 50px;
+      height: 30px;
     }
     span > h3 {
       font-family: 'Montserrat';
@@ -38,8 +38,8 @@
       font-size: 18px;
     }
     img.product-img {
-      height: 150px;
-      margin: 20px 0;
+      height: 130px;
+      margin: 15px 0;
     }
     &__info {
       width: 220px;
