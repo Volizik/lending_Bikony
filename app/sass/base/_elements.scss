@@ -8,6 +8,12 @@
   border: 2px solid #000;
   border-radius: 5px;
   text-align: center;
+  transition: .5s;
+  &:hover {
+    background-color: #000000;
+    color: #fff;
+    transition: .2s;
+  }
   @include breakpoint(max-width 500px) {
     padding: 10px 30px;
   }
