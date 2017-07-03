@@ -120,13 +120,17 @@
       padding: 10px 40px;
       border: 2px solid #2a3a4e;
       border-radius: 5px;
+      transition: .5s;
       &:hover {
+        transition: .5s;
         background-color: #2a3a4e;
         color: #edeff1;
       }
     }
+    transition: .5s;
     &:hover {
       box-shadow: -10px 20px 60px rgba(0, 0, 0, .3);
+      transition: .5s;
       @include breakpoint(max-width 676px) {
         box-shadow: none;
       }
